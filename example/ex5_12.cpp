@@ -17,7 +17,7 @@ public:
         strcpy(this->name, name);
     }
 
-    Person(Person& p) // 복사 생성자
+    Person(Person& p) 
     {
         this->id = p.id;
         int len = strlen(p.name);
